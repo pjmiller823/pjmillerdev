@@ -21,9 +21,9 @@
 		});
 	});
 
-	
+
 	//nivo lightbox
-	$('.gallery-item a').nivoLightbox({
+	$('.gallery-item a[data-lightbox-gallerygit]').nivoLightbox({
 		effect: 'fadeScale',                             // The effect to use when showing the lightbox
 		theme: 'default',                           // The lightbox theme to use
 		keyboardNav: true,                          // Enable/Disable keyboard navigation (left/right/escape)
@@ -38,5 +38,5 @@
 		errorMessage: 'The requested content cannot be loaded. Please try again later.' // Error message when content can't be loaded
 	});
 
-	
+
 })(jQuery);
